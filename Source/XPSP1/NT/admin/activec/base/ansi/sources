@@ -1,0 +1,13 @@
+!IF 0
+
+Copyright
+
+Module Name:
+       sources.
+
+!ENDIF
+
+USE_MFC = 1
+
+!include ..\..\ansi.inc
+!include ..\sources.inc
