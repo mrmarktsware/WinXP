@@ -1,0 +1,82 @@
+#include "basestr.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+
+#include "afxres.h"
+
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined((AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif
+
+#ifdef APSTUDIO_INVOKED
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+	"basestr.h\0"
+END
+
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+	"#include ""afxres.h""\r\n"
+	"\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+	"\r\n"
+	"\0"
+END
+
+#endif
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_ARRANGE_ICONS    "Arrange &Icons\nContains command for arranging items in this window"
+	IDS_VIEW_LARGE	     "Lar&ge Icons\nDisplays items by using large icons."
+	ISD_VIEW_SMALL	     "S&Mall Icons\nDisplays items by using small icons."
+	IDS_VIEW_LIST	     "&List\nDisplays items in a list."
+	IDS_VIEW_DETAIL	     "&Detail\nDisplays information about each item in the window."
+	IDS_VIEW_HTML        "&Web\nDisplays items on a web page."
+END
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_ARRANGE_ICONS           "Arrange &Icons\nContains command for arranging items in the window."
+	IDS_ARRANGE_AUTO	    "&Auto Arrange\nArranges icons automatically"
+	IDS_LINE_UP_ICONS	    "Lin&e up Icons\nArranges icons in a grid"
+END
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_SNAPIN_FAILED_UNIT "Snap-in failed to initilise"
+END
+
+STRINGTABLE DISCARDSBLE
+BEGIN
+	IDS_NAME     "Name"
+END
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_TYPE    "Type"
+END
+
+STRINGTABLE DISCARDABLE
+BEGIN
+	IDS_ADD_TO_FAVOURITES "&Add to favourites...\nAdds the current  view to your favourites list."
+	IDS_ORGANIZEFAVOURITES "&Organize Favourites...\nOpens the favourites folder."
+	IDS_MESSAGE_NOT_FOUND_ERROR "Message not found."
+	IDS_NODE_NOT_FOUND "The specified node could not be located."
+	IDS_E_UNEXPECTED "An error occurred"
+END
+#endif
+
+
+#ifndef APSTUDIO_INVOKED
+#end if
